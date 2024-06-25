@@ -1,0 +1,263 @@
+<div class="popular_song">
+				<div class="h4">
+					<h4>Popular Song</h4>
+					<div class="btn_s">
+						<i class="bi bi-arrow-left-short"></i>
+						<i class="bi bi-arrow-right-short"></i>
+					</div>
+				</div>
+				<div class="pop_song">
+
+					<li class="songItem">
+						<div class="img_play">
+							<img src="img\3.jpg" alt="">
+							<i class="bi playlistPlay bi-play-circle-fill" id="2"></i>
+						</div>
+						<h5>On My Way <br>
+							<div class="subtitle">Alan Walker</div>
+						</h5>
+					</li>
+					<li class="songItem">
+						<div class="img_play">
+							<img src="img\3.jpg" alt="">
+							<i class="bi playlistPlay bi-play-circle-fill" id="2"></i>
+						</div>
+						<h5>On My Way <br>
+							<div class="subtitle">Alan Walker</div>
+						</h5>
+					</li>
+					<li class="songItem">
+						<div class="img_play">
+							<img src="img\3.jpg" alt="">
+							<i class="bi playlistPlay bi-play-circle-fill" id="2"></i>
+						</div>
+						<h5>On My Way <br>
+							<div class="subtitle">Alan Walker</div>
+						</h5>
+					</li>
+					<li class="songItem">
+						<div class="img_play">
+							<img src="img\3.jpg" alt="">
+							<i class="bi playlistPlay bi-play-circle-fill" id="2"></i>
+						</div>
+						<h5>On My Way <br>
+							<div class="subtitle">Alan Walker</div>
+						</h5>
+					</li>
+					<li class="songItem">
+						<div class="img_play">
+							<img src="img\3.jpg" alt="">
+							<i class="bi playlistPlay bi-play-circle-fill" id="2"></i>
+						</div>
+						<h5>On My Way <br>
+							<div class="subtitle">Alan Walker</div>
+						</h5>
+					</li>
+					<li class="songItem">
+						<div class="img_play">
+							<img src="img\3.jpg" alt="">
+							<i class="bi playlistPlay bi-play-circle-fill" id="2"></i>
+						</div>
+						<h5>On My Way <br>
+							<div class="subtitle">Alan Walker</div>
+						</h5>
+					</li>
+					<li class="songItem">
+						<div class="img_play">
+							<img src="img\3.jpg" alt="">
+							<i class="bi playlistPlay bi-play-circle-fill" id="2"></i>
+						</div>
+						<h5>On My Way <br>
+							<div class="subtitle">Alan Walker</div>
+						</h5>
+					</li>
+					<li class="songItem">
+						<div class="img_play">
+							<img src="img\3.jpg" alt="">
+							<i class="bi playlistPlay bi-play-circle-fill" id="2"></i>
+						</div>
+						<h5>On My Way <br>
+							<div class="subtitle">Alan Walker</div>
+						</h5>
+					</li>
+					<li class="songItem">
+						<div class="img_play">
+							<img src="img\3.jpg" alt="">
+							<i class="bi playlistPlay bi-play-circle-fill" id="2"></i>
+						</div>
+						<h5>On My Way <br>
+							<div class="subtitle">Alan Walker</div>
+						</h5>
+					</li>
+					<li class="songItem">
+						<div class="img_play">
+							<img src="img\3.jpg" alt="">
+							<i class="bi playlistPlay bi-play-circle-fill" id="2"></i>
+						</div>
+						<h5>On My Way <br>
+							<div class="subtitle">Alan Walker</div>
+						</h5>
+					</li>
+					<li class="songItem">
+						<div class="img_play">
+							<img src="img\3.jpg" alt="">
+							<i class="bi playlistPlay bi-play-circle-fill" id="2"></i>
+						</div>
+						<h5>On My Way <br>
+							<div class="subtitle">Alan Walker</div>
+						</h5>
+					</li>
+
+				</div>
+			</div>
+
+			<div class="popular_artists">
+				<div class="h4">
+					<h4>Popular Artist</h4>
+					<div class="btn_s">
+						<i class="bi bi-arrow-left-short"></i>
+						<i class="bi bi-arrow-right-short"></i>
+					</div>
+				</div>
+				<!-- <div class="item">
+					<li>
+						<img src="img/arjit.jpg" alt="">
+					</li>
+				</div> -->
+
+
+
+                --CSS--
+   header .song_side .popular_artists{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 15px;
+    /* border: 1px solid #fff; */
+  }
+  header .song_side .popular_artists .h4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header .song_side .popular_artists .h4 .bi{
+    color: #a4a8b4;
+    cursor: pointer;
+    transition: .3s linear;
+  }
+  header .song_side .popular_artists .h4 .bi:hover{
+    color: #fff;
+  }
+  header .song_side .popular_artists .pop_song{
+    width: 100%;
+    height: 150px;
+    margin-top:15px ;
+    display: flex;
+    /* border: 1px solid #fff; */
+    overflow: auto;
+    scroll-behavior: smooth;
+  }
+  header .song_side .popular_artists .pop_song::-webkit-scrollbar{
+    display: none;
+
+  }
+  header .song_side .popular_artists .pop_song li{
+    min-width: 100px;
+    height: 140px;
+    list-style-type: none;
+    margin-right: 10px;
+    transition: .3s linear;
+  }
+  header .song_side .popular_artists .pop_song li:hover{
+    background-color: rgb(105,105,170,.1);
+  }
+  header .song_side .popular_artists .pop_song li .img_play{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+       
+  }
+  header .song_side .popular_artists .pop_song li .img_play img{
+    width: 100%;
+    height: 100%;
+  }
+  header .song_side .popular_artists .pop_song li .img_play .bi{
+    position: absolute;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .3s linear;
+    opacity: 0;
+
+
+  }
+  header .song_side .popular_artists .pop_song li:hover .img_play .bi{
+    opacity: 1;
+  }
+  header .song_side .popular_artists .pop_song li h5{
+    padding: 5px 0px 0px 5px ;
+    line-height: 15px;
+    font-size: 10px;
+    width: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  header .song_side .popular_artists .pop_song  li h5 .subtitle{
+    font-size:  9px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #4c5262;
+  }
+ 
+  header .song_side .popular_artists{
+    width: 90%;
+    height: auto;
+    border: 1px solid #fff;
+    margin: auto;
+    margin-top: 15px;
+  }
+  header .song_side .popular_artists .h4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header .song_side .popular_artists .h4 .bi{
+    color: #a4a8b4;
+    cursor: pointer;
+    transition: .3s linear;
+  }
+  header .song_side .popular_artists .h4 .bi:hover{
+    color: #fff;
+  }
+  
+ /header .song_side .popular_artists .item{
+    color: #fff;
+  }
+  header .song_side .popular_artists .item{
+    width: 100%;
+    height: auto;
+    margin-top:15px ;
+    display: flex;
+    /* border: 1px solid #fff; */
+    overflow: auto;
+    scroll-behavior: smooth;
+  }
+  header .song_side .popular_artists .item li{
+    list-style-type: none;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  header .song_side .popular_artists .item li img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    
+  }
